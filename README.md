@@ -284,8 +284,8 @@ O sistema é totalmente responsivo e se adapta a diferentes tamanhos de tela:
 
 Este projeto foi desenvolvido como trabalho acadêmico da disciplina de **Programação Web**.
 
-- **Eduardo Golzio** - [GitHub](https://github.com/eduardo-golzio)
-- **Romulo Araujo** - [GitHub](https://github.com/romulo-araujo)
+- **Eduardo Golzio** - [GitHub]([https://github.com/eduardo-golzio](https://github.com/eduardogolzio))
+- **Romulo Araujo** - [GitHub](https://github.com/Romulo-AraujoDev)
 
 ---
 
