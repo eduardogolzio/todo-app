@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <!-- Google Fonts - Poppins (mesmo do login) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Todo List - Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Minha Lista de Tarefas</h1>
+            <button class="logout" onclick="logout()">Sair</button>
+        </div>
+
+        <form class="todo-form" id="todoForm" action="add">
+            <input type="text" id="todoInput" placeholder="Adicionar nova tarefa..." required>
+            <button type="submit" id="adicionar">Adicionar</button>
+        </form>
+
+        <div class="todo-list" id="todoList">
+            <!-- Os itens serão adicionados aqui dinamicamente -->
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
